@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #111111;
+}
+
+footer a {
+    color: #555555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    background-color: #ededed;
+    border-top: #dddddd solid 1px;
+}
+
+
+main {
+    margin: 10em;
+}
+
+
+#logo, #search-bar, #buttons {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2.5em;
+}
+
+
+#search-bar {
+    padding: 5px 15px;
+    border: 1px solid #dddddd;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-bar:hover {
+    box-shadow: 0px 2px 4px #999999;
+}
+
+input[type="text"] {
+    width: 400px;
+    border: 0;
+    padding: 0px 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#buttons input {
+    height: 30px;
+    border: #fff solid 1px;
+    color: #555555;
+    padding: 0px 10px;
+    background-color: #ededed;
+    border-radius: 0.2em;
+}
+
+#buttons input:hover {
+    border: #aaa solid 1px;
+}
+
+#apps{
+    height: 16px;
+    opacity: 50%;
+    position: relative;
+    top: 4px;
+}
+
+#apps:hover {
+    opacity: 100%;
+}
+
+#sign-in a{
+    font-weight: 800;
+    color: #fff;
+    border-radius: 0.2em;
+    background-color: #4172fa;
+    padding: 5px 8px;
+}
+
+#search-icon {
+    height: 10px;
+    opacity: 50%;
+}
+
+#mic-icon {
+    height: 16px;
+}
