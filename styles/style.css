@@ -3,35 +3,10 @@ body {
     font-size: 0.8em;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-ul{
-    padding: 0;
-}
-
-li{
-    display: inline;
-    padding: 0px 15px 0px 15px;
-}
-
-a {
-    text-decoration: none;
-}
-
-header a {
-    color: #111111;
-}
-
-footer a {
-    color: #555555;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 footer {
@@ -55,6 +30,30 @@ main {
     margin: 10em;
 }
 
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #111111;
+}
+
+footer a {
+    color: #555555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #logo, #search-bar, #buttons {
     display: block;
@@ -62,7 +61,6 @@ main {
     margin: auto;
     margin-bottom: 2.5em;
 }
-
 
 #search-bar {
     padding: 5px 15px;
